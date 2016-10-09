@@ -40,7 +40,7 @@ class ShoppingCart {
       foreach( $this->items as $item ) {
          $totalVatAmount += $item['qty'] * $item['item']->getVatAmount();
       }
-   return $totalVatAmount;
+      return $totalVatAmount;
    }
    
    /**
