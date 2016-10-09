@@ -1,4 +1,6 @@
 <?php
+include_once('Item.class.php');
+include_once('Discount.class.php');
 
 class ShoppingCart {
 
