@@ -27,14 +27,14 @@ class Item {
    
    /**
     * Returns the total amount of taxes to be paid for this item
-	*/
+    */
    public function getVatAmount() {
       return $this->price / 100 * $this->vat;
    }
    
    /**
     * Returns the total price of the item including taxes
-	*/
+    */
    public function getPriceInclVat() {
       return $this->price + $this->getVatAmount();
    }
